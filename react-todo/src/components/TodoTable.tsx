@@ -1,5 +1,5 @@
 import React from "react";
-import { TodoRowItem } from './TodoRowItem';
+import { TodoRowItem } from "./TodoRowItem";
 
 export const TodoTable: React.FC<{
     todos: TodoModel[], deleteTodo: Function
