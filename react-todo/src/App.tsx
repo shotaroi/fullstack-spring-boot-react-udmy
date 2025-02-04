@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+export const App = () => {
 
   const [showAddTodoForm, setShowAddTodoForm] = useState(false);
   const [todos, setTodos] = useState([
@@ -32,7 +32,6 @@ function App() {
       return value.rowNumber !== deleteTodoRowNumber;
     });
     setTodos(filtered);
-  }
   }
 
   return (
